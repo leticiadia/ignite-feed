@@ -1,4 +1,5 @@
 import { PencilLine } from "phosphor-react";
+import { Avatar } from "./Avatar";
 
 import styles from "./Sidebar.module.css";
 
@@ -12,15 +13,7 @@ export function Sidebar() {
       />
 
       <div className={styles.profile}>
-        <img
-          className={styles.avatar}
-          src="src/assets/profile-image.jpeg"
-          alt="
-          Imagem de uma moça de cor branca, com um cabelo nos ombros e uma franja, 
-          óculos no formato arredondado e na cor rosa clara. 
-          Usando uma blusa preta, com desenho de um capacete de astronauta e um crachá por volta do pescoço, 
-          com uma mochila nas costas."
-        />
+        <Avatar hasBorder={true} src="src/assets/profile-image.jpeg" />
 
         <strong>Leticia Dias</strong>
         <span>Full Stack Develop</span>

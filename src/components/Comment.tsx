@@ -1,18 +1,11 @@
 import { ThumbsUp, Trash } from "phosphor-react";
+import { Avatar } from "./Avatar";
 import styles from "./Comment.module.css";
 
 export function Comment() {
   return (
     <div className={styles.comment}>
-      <img
-        className={styles.avatar}
-        src="src/assets/profile-image.jpeg"
-        alt="
-          Imagem de uma moça de cor branca, com um cabelo nos ombros e uma franja, 
-          óculos no formato arredondado e na cor rosa clara. 
-          Usando uma blusa preta, com desenho de um capacete de astronauta e um crachá por volta do pescoço, 
-          com uma mochila nas costas."
-      />
+      <Avatar hasBorder={false} src="src/assets/mikkaiser.jpeg" />
 
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
