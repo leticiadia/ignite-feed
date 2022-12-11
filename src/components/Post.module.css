@@ -63,6 +63,7 @@
 
 .post .content .tag a + a {
   margin-left: 0.75rem;
+  border-radius: 8px;
 }
 
 .post .commentForm {
@@ -126,4 +127,15 @@
 
 .post .commentList {
   margin-top: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .post .content .tag {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .post .content .tag a + a {
+    margin-left: 0;
+  }
 }
