@@ -2,6 +2,12 @@ import { Avatar } from "./Avatar";
 import { Comment } from "./Comment";
 import styles from "./Post.module.css";
 
+export interface PostProps {
+  author: string;
+  content: string;
+  publishedAt: Date;
+}
+
 export function Post() {
   return (
     <article className={styles.post}>
