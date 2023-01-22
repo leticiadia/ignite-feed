@@ -26,7 +26,7 @@ const posts = [
       },
       {
         type: "link",
-        content: "Ignite Feed",
+        content: "#codeReactJS",
       },
     ],
     publishedAt: new Date("2022-12-08 20:00:00"),
@@ -50,8 +50,8 @@ const posts = [
           "Acabei de subir mais um projeto no meu portifólio. É um projeto que fiz no Ignite.",
       },
       {
-        type: "paragraph",
-        content: "Ignite Feed",
+        type: "link",
+        content: "#nestJS",
       },
     ],
     publishedAt: new Date("2022-12-09 19:00:00"),
