@@ -6,11 +6,7 @@ import styles from "./Sidebar.module.css";
 export function Sidebar() {
   return (
     <aside className={styles.sidebar}>
-      <img
-        className={styles.cover}
-        src="src/assets/background-image.jpg"
-        alt="Uma imagem de um teclado de computador em preto e branco"
-      />
+      <img className={styles.cover} src="src/assets/background-image.jpg" />
 
       <div className={styles.profile}>
         <Avatar hasBorder={true} src="src/assets/profile-image.jpeg" />
