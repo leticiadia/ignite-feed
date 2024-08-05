@@ -4,8 +4,10 @@
   padding: 2.5rem;
 }
 
-.post + .post {
+.post:last-child {
   margin-top: 2rem;
+
+  border: 2px solid red;
 }
 
 .post > header {
@@ -121,8 +123,13 @@
   transition: background-color 0.1s;
 }
 
-.post .commentForm button[type="submit"]:hover {
+.post .commentForm button[type="submit"]:not(:disabled):hover {
   background: var(--green-300);
+}
+
+.post .commentForm button[type="submit"]:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
 }
 
 .post .commentList {
