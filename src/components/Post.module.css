@@ -5,9 +5,7 @@
 }
 
 .post:last-child {
-  margin-top: 2rem;
-
-  border: 2px solid red;
+  margin-bottom: 2rem;
 }
 
 .post > header {
